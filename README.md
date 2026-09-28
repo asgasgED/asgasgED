@@ -52,8 +52,6 @@ with real-world physical systems.
 
 ## PROGRAMMING CORE
 
-> A practical stack for moving from data exploration to deployed, physical-world systems.
-
 | Language | Primary use | Current focus |
 |---|---|---|
 | **Python** | Data, AI, ML and automation | Modeling, analysis, computer vision and tooling |
@@ -182,8 +180,6 @@ LOGIC        ● RUNNING   LADDER
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ## SYSTEM CAPABILITIES
-
-> Capability map: the intersection of computation, intelligent systems and physical engineering.
 
 | Capability | Signal | What it connects |
 |---|---:|---|
