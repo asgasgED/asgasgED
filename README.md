@@ -238,9 +238,3 @@ DATA → MODEL → CONTROL → IMPROVEMENT
 NEXT OBJECTIVE
 TURNING LEARNING INTO REAL PROJECTS
 ```
-
-###
-
-<img data-importer="snake" src="https://raw.githubusercontent.com/asgasgED/asgasgED/snake-output/snake.svg" alt="Snake animation" />
-
-###
