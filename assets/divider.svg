@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="44" viewBox="0 0 1600 44" fill="none">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#22D3EE" stop-opacity=".72"/>
+      <stop offset=".5" stop-color="#67E8F9"/>
+      <stop offset=".82" stop-color="#22D3EE" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="2.1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main hairline with soft cyan glow -->
+  <path d="M18 22H690 L730 22 L750 14 H850 L870 22 H1582"
+        stroke="url(#line)" stroke-width="1.25" filter="url(#glow)"/>
+
+  <!-- Fine parallel traces -->
+  <path d="M80 27H520 M1080 17H1520" stroke="#164E63" stroke-width=".7" opacity=".75"/>
+  <path d="M250 18h46l8 4h38 M1260 26h-46l-8-4h-38" stroke="#0E7490" stroke-width=".8" opacity=".8"/>
+
+  <!-- Center hexagonal tech node -->
+  <path d="M776 7H824L839 22L824 37H776L761 22L776 7Z"
+        stroke="url(#accent)" stroke-width="1.15" fill="#061522"/>
+  <path d="M784 13H816L825 22L816 31H784L775 22L784 13Z"
+        stroke="#22D3EE" stroke-width=".75" opacity=".8"/>
+  <path d="M793 22h14M800 15v14" stroke="#67E8F9" stroke-width=".8" opacity=".9"/>
+  <circle cx="800" cy="22" r="2.2" fill="#67E8F9"/>
+
+  <!-- Small endpoint nodes and ticks -->
+  <g stroke="#22D3EE" stroke-width="1">
+    <path d="M690 18v8M910 18v8M420 19v6M1180 19v6" opacity=".75"/>
+    <circle cx="690" cy="22" r="2" fill="#22D3EE"/>
+    <circle cx="910" cy="22" r="2" fill="#22D3EE"/>
+    <circle cx="420" cy="22" r="1.4" fill="#34D399"/>
+    <circle cx="1180" cy="22" r="1.4" fill="#34D399"/>
+  </g>
+
+  <!-- Short angular accents -->
+  <path d="M55 22l7-5h18 M1527 22l-7 5h-18" stroke="#34D399" stroke-width="1" opacity=".85"/>
+  <path d="M340 22l5-3 M1260 22l-5 3" stroke="#FB7185" stroke-width="1.1" opacity=".9"/>
+</svg>
